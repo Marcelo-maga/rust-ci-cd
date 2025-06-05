@@ -4,7 +4,7 @@ pub fn sum(a: i32, b: i32) -> i32 {
 
 #[cfg(test)]
 mod tests {
-use super::*;
+    use super::*;
 
     #[test]
     fn test_sum() {
